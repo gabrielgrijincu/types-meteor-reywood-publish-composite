@@ -13,6 +13,7 @@
   "files": [
     "index.d.ts"
   ],
+  "types": "index.d.ts",
   "publishConfig": {
     "registry": "https://npm.darkmatter.ro"
   }
