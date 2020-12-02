@@ -1,4 +1,6 @@
-declare module 'meteor/meteor' {
+export {};
+
+declare global {
   interface CompositeHandler<T = any> {
     collectionName?: string;
     children?: CompositeHandler<T>[];
