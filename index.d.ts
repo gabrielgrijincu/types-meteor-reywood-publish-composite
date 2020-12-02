@@ -1,6 +1,6 @@
-export {};
+import { Mongo } from 'meteor/mongo';
 
-declare global {
+declare module 'meteor/meteor' {
   interface CompositeHandler<T = any> {
     collectionName?: string;
     children?: CompositeHandler<T>[];
