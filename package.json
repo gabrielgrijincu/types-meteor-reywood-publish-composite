@@ -1,6 +1,6 @@
 {
   "name": "@types/meteor-reywood-publish-composite",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Gabriel Grijincu <gabriel@grijincu.ro>",
   "dependencies": {
     "@types/meteor": "^1.4.43"
