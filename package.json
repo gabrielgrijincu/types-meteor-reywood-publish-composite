@@ -4,5 +4,16 @@
   "dependencies": {},
   "devDependencies": {
     "@types/meteor": "^1.4.43"
+  },
+  "scripts": {
+    "bump": "npm version patch",
+    "prepublishOnly": "npm run bump",
+    "postpublish": "git push"
+  },
+  "files": [
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.darkmatter.ro"
   }
 }
